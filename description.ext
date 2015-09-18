@@ -21,10 +21,10 @@ class Header
 	minPlayers=1;
 	maxPlayers=145; // 144 players, 1 headless client
 };
-author="AgentRev - A3Wasteland.com and KRDucky - ACE3 A3Wasteland"; // it would be if you could keep "A3Wasteland.com" in the name, like "YourName and A3Wasteland.com" :)
-onLoadName = "ACE3 A3Wasteland Altis"; // it would be great if you could keep "A3" in the name, like "ABC A3Wasteland" instead of "ABC Wasteland" :)
-onLoadMission = "ACE A3Wasteland is a harsh survival sandbox where two teams and independent players fight for survival.";
-overviewText = "Wasteland is a harsh survival sandbox where two teams and independent players fight for survival.";
+author="KRDucky & Mokey -- A3Wasteland.com"; // it would be if you could keep "A3Wasteland.com" in the name, like "YourName and A3Wasteland.com" :)
+onLoadName = "Ace3Wasteland Altis A3W"; // it would be great if you could keep "A3" in the name, like "ABC A3Wasteland" instead of "ABC Wasteland" :)
+onLoadMission = "Ace3Wasteland is an ACE3 implemented A3 Wasteland Mission.";
+overviewText = "Ace3Wasteland is a harsh survival sandbox with ACE3 implemented where two teams and independent players fight for survival.";
 overviewTextLocked = "Wasteland is a harsh survival sandbox where two teams and independent players fight for survival.";
 overviewPicture = "mapConfig\Loading.jpg";
 loadScreen = "mapConfig\Loading.jpg";
