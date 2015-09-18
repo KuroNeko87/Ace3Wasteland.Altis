@@ -1,8 +1,12 @@
 #Fractured-Gaming ACE3 A3W Mod
 
 Developers if Ace3Wasteland
+
 KRDucky
+
 Mokey
+
+Agent Rev
 
 Fractured Gaming Website: http://www.Fractured-Gaming.com
 
