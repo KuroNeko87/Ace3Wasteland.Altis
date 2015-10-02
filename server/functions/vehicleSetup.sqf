@@ -124,7 +124,15 @@ switch (true) do
 		_vehicle addWeaponTurret ["MiniCarHorn", [-1]];
 	};
 };
-
+// Tigris FLAK ADDON
+switch (true) do
+{
+	case ({_class isKindOf _x} count ["O_APC_Tracked_02_AA_", " B_APC_Tracked_01_AA_F "] > 0):
+	{
+		// Add FLAK Addon Script turning Autocannons into FLAK cannons.
+		this call compile preprocessFileLineNumbers "addons/Flak/flak.sqf";
+	};
+};
 // Double minigun ammo to compensate for Bohemia's incompetence (http://feedback.arma3.com/view.php?id=21613)
 {
 	_path = _x;
